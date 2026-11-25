@@ -253,3 +253,17 @@ html[lang="en"] .cert h3{ font-family:var(--serif); }
 /* keep small Latin labels on the reading side in Arabic */
 .feature-project .idx, .cert-body .idx{ align-self:flex-start; }
 html[dir="rtl"] .kv dd.ltr{ text-align:right; }
+
+/* series: monthly themes */
+.theme-head{ display:flex; align-items:center; gap:16px; margin:8px 0 22px; padding-inline-start:16px; border-inline-start:2px solid var(--rose); }
+.theme-head + .series{ margin-bottom:56px; }
+.theme-ico{ font-size:26px; line-height:1; }
+.theme-when{ font:500 12px var(--sans); letter-spacing:.2em; color:var(--dim); text-transform:uppercase; }
+.theme-head h3{ font-size:clamp(22px, 2.4vw, 28px); font-weight:600; margin-top:2px; }
+.theme-head p{ font-size:14.5px; color:var(--muted); margin-top:4px; }
+.theme-head.amber{ border-color:#f2b862; }
+.theme-head.amber h3{ color:#f2c98a; }
+.series.amber .no{ color:#f2b862; }
+.theme-next{ margin-top:-24px; font-size:14px; color:var(--muted); text-align:center; }
+.theme-next b{ color:var(--ink); font-weight:600; margin-inline-start:6px; }
+html[lang="en"] .theme-head h3{ font-family:var(--serif); }
